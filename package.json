@@ -1,7 +1,7 @@
 {
-  "name": "@modos189/publish-browser-extension",
+  "name": "publish-browser-extension-fixfirefox",
   "description": "Easily publish web extensions to their stores",
-  "version": "3.0.2",
+  "version": "3.0.3",
   "engines": {
     "node": "^18.0.0 || >=20.0.0"
   },
