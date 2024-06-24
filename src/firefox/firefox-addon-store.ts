@@ -94,9 +94,6 @@ export class FirefoxAddonStore implements Store {
    */
   private get wrappedExtensionId(): string {
     let id = this.options.extensionId;
-    if (id.includes('@')) return id;
-    if (!id.startsWith('{')) id = '{' + id;
-    if (!id.endsWith('}')) id += '}';
     return id;
   }
 }
